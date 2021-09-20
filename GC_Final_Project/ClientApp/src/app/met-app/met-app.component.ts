@@ -77,7 +77,7 @@ export class MetAppComponent implements OnInit {
 
 
 
-   //method to call create a new favorite & add it to thelikes/mygallery
+   //method to call newlike & add it to thelikes/mygallery
    addNewLike() {
 
    }
@@ -91,7 +91,7 @@ export class MetAppComponent implements OnInit {
     }
 
     //same as onSelect, but when the user selects "like"
-    //***Required functionality: add the metObject to the MyGallery using the TheLike add function****
+    //***Required functionality: add the metObject to the MyGallery using the addNewLike function****
     onLike() {
       var rand = this.getRandomValue(this.listBySearchTerm.objectIDs);
       this.getMetObjById(rand);

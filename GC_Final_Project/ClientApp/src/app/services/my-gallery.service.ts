@@ -9,7 +9,6 @@ import { Observable } from 'rxjs';
 })
 export class MyGalleryService {
 
-   //Shelley start
 
    apiUri: string ="https://localhost:44375/api/likes"; //base URL needed
 
@@ -25,7 +24,7 @@ export class MyGalleryService {
   //   // CREATE add an object to myGallery
   //  addToMyGallery (metObj: MetObjects) {
   //    return this.http.post<MyGallery>(`${this.apiUri}/newlike`, {"metObj": metObj});
-  //    //return this.http.post<MyGallery>(`${this.apiUri}/{newlike}/{}`, {"objectId": objectId, "visitorId": visitorId});
+  //    //return this.http.post<MyGallery>(`${this.apiUri}/newlike`, {"objectId": objectId, "visitorId": visitorId});
   //  }
 
   //  // UPDATE edit an object that the user likes (Have visited boolean)
@@ -38,8 +37,6 @@ export class MyGalleryService {
   //    return this.http.delete(`${this.apiUri}/{}/{}`);
   //  }
 
-
-  // Shelley end
 
   //}
 

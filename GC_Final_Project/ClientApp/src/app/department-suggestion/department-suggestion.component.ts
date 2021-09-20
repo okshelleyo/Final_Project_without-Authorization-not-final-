@@ -9,24 +9,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DepartmentSuggestionComponent implements OnInit {
 
-  // departmentList: Departments[] = [];
-  // deparmentSuggestion = ''; //will this be a string or a property?
 
-  // constructor(private departmentService: DepartmentAPIService) { }
+
+  // constructor() { }
 
    ngOnInit() {
    }
 
-  // //get the list of departments (department name & count) by user
-  // getDepartmentListByUser() {
-  //   this.departmentService.getDeparmentCountByUser().subscribe(
-  //     result => {
-  //       this.departmentList = result;
-  //       console.log(this.departmentList)
-  //     },
-  //     error => console.log(error)
-  //   )
-  // }
+
 
   // calculateDepartment () {
   //   //algorithm(s) to calculate which department has the highest count.
