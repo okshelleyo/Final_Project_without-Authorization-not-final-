@@ -9,7 +9,7 @@
 <table>
   <tr>
     <th>Object</th>
-    <th>Information</th>
+    <th>Artist</th>
     <th>I've seen that!</th>
     <th>Remove from My Gallery</th>
   </tr>
@@ -17,9 +17,8 @@
 
 
   <tr *ngFor="let item of myGalleryList">
-    <p>test</p>
-    <td> {{ item.department }} </td>
-    <td> {{ item.artistDisplayBio }} </td>
+    <td> <img src="{{ item.primaryImage }}" style="width:auto;height:125px;"> </td>
+    <td> {{ item.artistDisplayName }} </td>
     <td></td><button (click)="onMarkAsVisited()">Mark as Visited</button>
     <td><button (click)="deleteGalleryItem()">Remove From My Gallery</button>
 
