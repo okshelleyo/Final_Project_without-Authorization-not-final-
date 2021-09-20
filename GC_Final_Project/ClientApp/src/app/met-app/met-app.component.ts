@@ -2,6 +2,7 @@ import { MetObjects } from './../models/MetObjects';
 import { MetAPIService } from './../services/met-api.service';
 import { Component, Input, OnInit } from '@angular/core';
 import { ListBySearchTerm } from '../models/ListBySearchTerm';
+import { MyGalleryService } from '../services/my-gallery.service';
 
 @Component({
   selector: 'app-met-app',
@@ -21,7 +22,7 @@ export class MetAppComponent implements OnInit {
   randomValue: number;
 
 
-  constructor(private metAPIservice: MetAPIService) { }
+  constructor(private metAPIservice: MetAPIService, private myGalleryAPIservice: MyGalleryService) { }
 
     // On start, the app shows this pre-selected object. Can work out a better system later.
     ngOnInit() {
@@ -73,6 +74,13 @@ export class MetAppComponent implements OnInit {
        },
        error => console.log(error)
       )};
+
+
+
+   //method to call create a new favorite & add it to thelikes/mygallery
+   addNewLike() {
+
+   }
 
    //Refers to the Select button, which is clicked after a search term is selected.
    //This sets a local variable rand equal to the random value that is returned from getRandomValue
