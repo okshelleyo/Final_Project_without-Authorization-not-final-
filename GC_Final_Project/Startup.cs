@@ -22,16 +22,15 @@ namespace GC_Final_Project
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
-            string connection = "Server=mappsterpiecesserver.database.windows.net;Database=MappsterpiecesDB;Trusted_Connection=True;ConnectRetryCount=0;"; //TODO: change Trusted_Connection to login details?
-            
-            services.AddDbContext<MappsterpiecesDBContext>(options => options.UseSqlServer(connection));
-
             services.AddControllersWithViews();
             // In production, the Angular files will be served from this directory
             services.AddSpaStaticFiles(configuration =>
             {
                 configuration.RootPath = "ClientApp/dist";
             });
+
+            string connection = "Server=tcp:mappsterpiecesserver.database.windows.net,1433;Initial Catalog=MappsterpiecesDB;Persist Security Info=False;User ID=Mappsterpieces;Password=gNN=Mg9_R\"Vg6^Hm;MultipleActiveResultSets=False;Encrypt=True;TrustServerCertificate=False;Connection Timeout=30;"; //TODO: change Trusted_Connection to login details?
+            services.AddDbContext<MappsterpiecesDBContext>(options => options.UseSqlServer(connection));
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

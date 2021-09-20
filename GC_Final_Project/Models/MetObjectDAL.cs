@@ -17,18 +17,6 @@ namespace GC_Final_Project.Models
             return client;
         }
 
-        //api/met/getObjById/{id}
-        //public async Task<int> GetMetObjectById(int id)
-        //{
-        //    var client = GetHttpClient();
-
-        //    var response = await client.GetAsync($"/public/collection/v1/objects/{id}");
-
-        //    var metObj = await response.Content.ReadAsAsync<MetObject.Rootobject>();
-
-        //    return metObj.objectID;
-        //}
-
         //TODO: potential for returning entire object and have
         public async Task<MetObject.Rootobject> GetMetObjectById(int id)
         {
@@ -55,12 +43,19 @@ namespace GC_Final_Project.Models
 
         }
 
-        ////api/met/likes/{user}
-        //public IEnumerable<TheLike> GetLikes(Visitor visitor)
+
+        //api/met/getObjById/{id}
+        //public async Task<int> GetMetObjectById(int id)
         //{
         //    var client = GetHttpClient();
 
-        //    return visitor.TheLikes;
+        //    var response = await client.GetAsync($"/public/collection/v1/objects/{id}");
+
+        //    var metObj = await response.Content.ReadAsAsync<MetObject.Rootobject>();
+
+        //    return metObj.objectID;
         //}
+
+
     }
 }

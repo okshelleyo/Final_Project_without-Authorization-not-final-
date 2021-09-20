@@ -17,7 +17,7 @@ namespace GC_Final_Project.Models
         {
         }
 
-        public virtual DbSet<TheLike> TheLikes { get; set; }
+        public virtual DbSet<TheLikes> TheLikes { get; set; }
         public virtual DbSet<Visitor> Visitors { get; set; }
 
         protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
@@ -33,7 +33,7 @@ namespace GC_Final_Project.Models
         {
             modelBuilder.HasAnnotation("Relational:Collation", "SQL_Latin1_General_CP1_CI_AS");
 
-            modelBuilder.Entity<TheLike>(entity =>
+            modelBuilder.Entity<TheLikes>(entity =>
             {
                 entity.HasKey(e => e.EntryId)
                     .HasName("PK__TheLikes__F57BD2D7F08EDC4F");

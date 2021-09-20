@@ -9,13 +9,13 @@ namespace GC_Final_Project.Models
     {
         public Visitor()
         {
-            TheLikes = new HashSet<TheLike>();
+            TheLikes = new HashSet<TheLikes>();
         }
 
         public int VisitorId { get; set; }
         public string VisitorEmail { get; set; }
         public string VisitorPassword { get; set; }
 
-        public virtual ICollection<TheLike> TheLikes { get; set; }
+        public virtual ICollection<TheLikes> TheLikes { get; set; }
     }
 }
