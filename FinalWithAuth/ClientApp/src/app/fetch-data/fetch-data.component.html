@@ -1,0 +1,50 @@
+<!-- <h1 id="tableLabel">My Gallery</h1>
+
+<p>This component demonstrates fetching data from your liked gallery.</p>
+
+<p *ngIf="!forecasts"><em>Loading...</em></p>
+
+<table class='table table-striped' aria-labelledby="tableLabel" *ngIf="forecasts">
+  <thead>
+    <tr>
+      <th>Date</th>
+      <th>Temp. (C)</th>
+      <th>Temp. (F)</th>
+      <th>Summary</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let forecast of forecasts">
+      <td>{{ forecast.date }}</td>
+      <td>{{ forecast.temperatureC }}</td>
+      <td>{{ forecast.temperatureF }}</td>
+      <td>{{ forecast.summary }}</td>
+    </tr>
+  </tbody>
+</table> -->
+
+<!--
+  1) display list of items (image & basic info)
+  2) display a button to edit
+  3) display a button to delete
+ -->
+
+ <h1>My Gallery</h1>
+
+<table>
+  <tr>
+    <th>Object</th>
+    <th>Object Information</th>
+    <th>I've seen that!</th>
+    <th>Remove from My Gallery</th>
+  </tr>
+
+  <tr *ngFor="let item of myGalleryList">
+    <td> <img src="{{ item.primaryImage }}" style="width:auto;height:125px;"> </td>
+    <td> {{ item.artistDisplayName }}, {{item.title}} </td>  
+    <td></td><button (click)="onMarkAsVisited()">Mark as Visited</button>
+    <td><button (click)="deleteGalleryItem()">Remove From My Gallery</button>
+
+  </tr>
+
+</table>
