@@ -1,7 +1,7 @@
-// import { Component, Inject } from '@angular/core';
-// import { HttpClient } from '@angular/common/http';
+import { Component, Inject } from '@angular/core';
+import { HttpClient } from '@angular/common/http';
 
-// @Component({
+//@Component({
 //   selector: 'app-fetch-data',
 //   templateUrl: './fetch-data.component.html'
 // })
@@ -23,7 +23,7 @@
 // }
 
 import { MyGalleryService } from '../services/my-gallery.service';
-import { Component, OnInit } from '@angular/core';
+//import { Component, OnInit } from '@angular/core';
 import { MyGallery } from '../models/MyGallery';
 
 @Component({
@@ -31,7 +31,7 @@ import { MyGallery } from '../models/MyGallery';
   templateUrl: './fetch-data.component.html',
   styleUrls: ['./fetch-data.component.css']
 })
-export class FetchDataComponent implements OnInit {
+export class FetchDataComponent { //implements OnInit
 
   /*Component purpose:
   1) display list of the user's favorite objects --- funtion to display list

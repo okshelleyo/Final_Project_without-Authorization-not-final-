@@ -12,6 +12,7 @@ namespace FinalWithAuth.Controllers
     [Authorize]
     [Route("api/[controller]")]
     [ApiController]
+
     public class LikesController : Controller
     {
         private readonly MappsterpiecesDBContext _context;
@@ -20,19 +21,33 @@ namespace FinalWithAuth.Controllers
             _context = context;
         }
 
-        [HttpDelete("{ObjectId}")]
-        public async Task<ActionResult> DeleteLikes(int EntryId)
+        //[HttpDelete("{ObjectId}")]
+        //public async Task<ActionResult> DeleteLikes(int EntryId)
+        //{
+        //    TheLikes theLike = _context.TheLikes.Where(x => x.EntryId == EntryId).FirstOrDefault();
+
+        //    if (theLike is object)
+        //    {
+        //        _context.TheLikes.Remove(theLike);
+        //        await _context.SaveChangesAsync();
+        //        return NoContent();
+        //    }
+
+        //    return NotFound();
+        //}
+
+        //DELETE: api/likes/{entryId}
+        [HttpDelete("{entryId}")]
+        public async Task<ActionResult> DeleteLike(int entryId)
         {
-            TheLikes theLike = _context.TheLikes.Where(x => x.EntryId == EntryId).FirstOrDefault();
-
-            if (theLike is object)
+            var like = await _context.TheLikes.FindAsync(entryId);
+            if (like == null)
             {
-                _context.TheLikes.Remove(theLike);
-                await _context.SaveChangesAsync();
-                return NoContent();
+                return NotFound();
             }
-
-            return NotFound();
+            _context.TheLikes.Remove(like);
+            await _context.SaveChangesAsync();
+            return NoContent();
         }
 
         ////api/met/likes/{user}

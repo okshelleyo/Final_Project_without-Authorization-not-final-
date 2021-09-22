@@ -3,6 +3,8 @@ import { MetAPIService } from './../services/met-api.service';
 import { Component, Input, OnInit } from '@angular/core';
 import { ListBySearchTerm } from '../models/ListBySearchTerm';
 import { MyGalleryService } from '../services/my-gallery.service';
+import { LoginComponent } from 'src/api-authorization/login/login.component';
+import { LoginMenuComponent } from 'src/api-authorization/login-menu/login-menu.component';
 
 @Component({
   selector: 'app-met-app',
