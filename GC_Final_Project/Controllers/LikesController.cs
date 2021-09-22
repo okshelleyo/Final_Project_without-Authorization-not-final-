@@ -18,11 +18,11 @@ namespace GC_Final_Project.Controllers
             _context = context;
         }
 
-        //UPDATE: api/likes/update/{entryId}
-        [HttpPut("{entryId}")]
-        public async Task<ActionResult> UpdateLike() {
+        ////UPDATE: api/likes/update/{entryId}
+        //[HttpPut("{entryId}")]
+        //public async Task<ActionResult> UpdateLike() {
 
-        }
+        //}
 
         //DELETE: api/likes/delete/{entryId}
         [HttpDelete("delete/{entryId}")]
