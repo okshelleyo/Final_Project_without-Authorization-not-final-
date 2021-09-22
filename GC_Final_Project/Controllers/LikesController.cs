@@ -18,24 +18,22 @@ namespace GC_Final_Project.Controllers
             _context = context;
         }
 
-        [HttpDelete("{ObjectId}")]
-        public async Task<ActionResult> DeleteLikes(int EntryId)
+    
+
+        //DELETE: api/likes/{entryId}
+        [HttpDelete("{entryId}")]
+        public async Task<ActionResult> DeleteLike(int entryId)
         {
-            TheLikes theLike = _context.TheLikes.Where(x => x.EntryId == EntryId).FirstOrDefault();
-
-            if (theLike is object)
+            var like = await _context.TheLikes.FindAsync(entryId);
+            if (like == null)
             {
-                _context.TheLikes.Remove(theLike);
-
-
-
-                await _context.SaveChangesAsync();
-                return NoContent();
-
+                return NotFound();
             }
-            return NotFound();
-
+            _context.TheLikes.Remove(like);
+            await _context.SaveChangesAsync();
+            return NoContent();
         }
+
 
         ////api/met/likes/{user}
         [HttpGet("getLikes")]
@@ -65,6 +63,28 @@ namespace GC_Final_Project.Controllers
             //return CreatedAtAction(nameof(GetStudent), new { id = student.Id }, student);
             return Ok(newLike);
         }
+
+
+        //[HttpDelete("{ObjectId}")]
+        //public async Task<ActionResult> DeleteLikes(int EntryId)
+        //{
+        //    TheLikes theLike = _context.TheLikes.Where(x => x.EntryId == EntryId).FirstOrDefault();
+
+        //    if (theLike is object)
+        //    {
+        //        _context.TheLikes.Remove(theLike);
+
+
+
+        //        await _context.SaveChangesAsync();
+        //        return NoContent();
+
+        //    }
+        //    return NotFound();
+
+        //}
+
+
 
     }
 
