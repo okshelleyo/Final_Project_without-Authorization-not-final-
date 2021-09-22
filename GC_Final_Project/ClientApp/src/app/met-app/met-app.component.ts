@@ -93,7 +93,7 @@ export class MetAppComponent implements OnInit {
     onLike() {
       var rand = this.getNextValue(this.listBySearchTerm.objectIDs);
       this.getMetObjById(rand);
-      this.addNewLike();
+      this.addNewLike(this.metObj);
     }
 
     //same as onSelect, but when the user selects "dislike"
@@ -117,8 +117,13 @@ export class MetAppComponent implements OnInit {
 
 
    //method to call newlike & add it to thelikes/mygallery
-   addNewLike() {
-
+   addNewLike(metObj: MetObjects) {
+    this.myGalleryAPIservice.addToMyGallery(metObj).subscribe(
+      result => {
+        console.log(result);
+      },
+      error => console.log(error)
+    )
    }
 
 

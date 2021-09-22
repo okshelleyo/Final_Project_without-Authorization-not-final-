@@ -18,10 +18,14 @@ namespace GC_Final_Project.Controllers
             _context = context;
         }
 
-    
+        //UPDATE: api/likes/update/{entryId}
+        [HttpPut("{entryId}")]
+        public async Task<ActionResult> UpdateLike() {
 
-        //DELETE: api/likes/{entryId}
-        [HttpDelete("{entryId}")]
+        }
+
+        //DELETE: api/likes/delete/{entryId}
+        [HttpDelete("delete/{entryId}")]
         public async Task<ActionResult> DeleteLike(int entryId)
         {
             var like = await _context.TheLikes.FindAsync(entryId);
@@ -29,9 +33,12 @@ namespace GC_Final_Project.Controllers
             {
                 return NotFound();
             }
-            _context.TheLikes.Remove(like);
-            await _context.SaveChangesAsync();
-            return NoContent();
+            else
+            {
+                _context.TheLikes.Remove(like);
+                await _context.SaveChangesAsync();
+                return NoContent();
+            }
         }
 
 

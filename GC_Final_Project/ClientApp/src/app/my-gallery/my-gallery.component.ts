@@ -37,16 +37,16 @@ export class MyGalleryComponent implements OnInit {
      )
    }
 
-  // // //delete an item from their list of likes -- called when the user clicks "delete from my gallery"
-  //  deletegalleryitem (id: number): void {
-  //    this.galleryApiservice.deletegalleryitem(id).subscribe(
-  //      result => {
-  //        this.myGalleryList();
-  //        console.log(id);
-  //      },
-  //      error => console.log(error)
-  //    )
-  //  }
+   // //delete an item from their list of likes -- called when the user clicks "delete from my gallery"
+    deleteGalleryItem(entryId: number): void {
+      this.galleryApiService.deleteGalleryItem(entryId).subscribe(
+        result => {
+          console.log(entryId);
+          this.getAllLikes();
+        },
+        error => console.log(error)
+      )
+    }
 
 
    //edit an item from the list of likes
