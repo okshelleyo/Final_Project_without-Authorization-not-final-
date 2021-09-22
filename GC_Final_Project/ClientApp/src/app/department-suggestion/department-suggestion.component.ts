@@ -18,9 +18,9 @@ export class DepartmentSuggestionComponent implements OnInit {
 
 
 
-  // calculateDepartment () {
-  //   //algorithm(s) to calculate which department has the highest count.
-  // }
+  calculateDepartment () {
+     //algorithm(s) to calculate which department has the highest count.
+  }
 
 
 

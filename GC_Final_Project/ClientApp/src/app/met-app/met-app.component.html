@@ -6,6 +6,7 @@
 </select>
 
 <!-- select button  -->
+<!-- <button (click)="onSelect()">select</button> -->
 <button (click)="onSelect()">select</button>
 
 <br />
@@ -15,10 +16,18 @@
 <!-- object information display -->
 <img src="{{ metObj.primaryImage }}" style="width:400px;height:auto;">
 
-<p style="font-weight: bold;">{{ metObj.title }}</p>
-<p>artist name: {{ metObj.artistDisplayName }} </p>
-<p>artist bio: {{ metObj.artistDisplayBio }} </p>
 
+<div *ngIf="metObj.artistDisplayName!" >
+  <div>
+    <b>{{ metObj.artistDisplayName }},</b> {{ metObj.artistNationality}}, {{metObj.artistBeginDate}}-{{metObj.artistEndDate}}
+  </div>
+</div>
+<br />
+<div>
+  <b>{{ metObj.title }}</b>, {{metObj.objectDate }} <br />
+  {{metObj.medium}}
+</div>
+<br />
 
 <!-- like/dislike buttons -->
 <button (click)="onLike()">oOoOo</button>
