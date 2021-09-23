@@ -20,10 +20,10 @@ export class MyGalleryService {
     }
 
   // CREATE add an object to myGallery
-  addToMyGallery (metObj: MetObjects) {
-    return this.http.post<MyGallery>(`${this.apiUri}/newlike`, {"objectId":metObj.objectID, "department":metObj.department, "title":metObj.title,
-      "artistDisplayName":metObj.artistDisplayName, "primaryImage":metObj.primaryImage, "artistDisplayBio":metObj.artistDisplayBio,
-      "medium":metObj.medium, "objectDate":metObj.objectDate});
+  addtomygallery (metobj: metobjects) {
+    return this.http.post<mygallery>(`${this.apiUri}/newlike`, {"objectid":metobj.objectid, "department":metobj.department, "title":metobj.title,
+    "artistdisplayname":metobj.artistdisplayname, "primaryimage":metobj.primaryimage, "artistdisplaybio":metobj.artistdisplaybio,
+    "medium":metobj.medium, "objectdate":metobj.objectdate});
   }
 
 //  // UPDATE edit an object that the user likes (Have visited boolean)
