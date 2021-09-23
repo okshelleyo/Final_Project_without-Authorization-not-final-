@@ -1,0 +1,216 @@
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\appsettings.json
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\FinalWithAuth.StaticWebAssets.xml
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\FinalWithAuth.exe
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\FinalWithAuth.deps.json
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\FinalWithAuth.runtimeconfig.json
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\FinalWithAuth.runtimeconfig.dev.json
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\FinalWithAuth.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\FinalWithAuth.pdb
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\FinalWithAuth.Views.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\FinalWithAuth.Views.pdb
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\AutoMapper.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\IdentityModel.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\IdentityServer4.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\IdentityServer4.AspNetIdentity.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\IdentityServer4.EntityFramework.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\IdentityServer4.EntityFramework.Storage.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\IdentityServer4.Storage.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.ApiAuthorization.IdentityServer.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.NodeServices.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.SpaServices.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.SpaServices.Extensions.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Http.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Configuration.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Console.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\obj\Debug\netcoreapp3.1\FinalWithAuth.csproj.AssemblyReference.cache
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\obj\Debug\netcoreapp3.1\FinalWithAuth.GeneratedMSBuildEditorConfig.editorconfig
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\obj\Debug\netcoreapp3.1\FinalWithAuth.AssemblyInfoInputs.cache
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\obj\Debug\netcoreapp3.1\FinalWithAuth.AssemblyInfo.cs
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\obj\Debug\netcoreapp3.1\FinalWithAuth.csproj.CoreCompileInputs.cache
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\obj\Debug\netcoreapp3.1\FinalWithAuth.MvcApplicationPartsAssemblyInfo.cs
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\obj\Debug\netcoreapp3.1\FinalWithAuth.MvcApplicationPartsAssemblyInfo.cache
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\obj\Debug\netcoreapp3.1\FinalWithAuth.RazorAssemblyInfo.cache
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\obj\Debug\netcoreapp3.1\FinalWithAuth.RazorAssemblyInfo.cs
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\obj\Debug\netcoreapp3.1\staticwebassets\FinalWithAuth.StaticWebAssets.Manifest.cache
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\obj\Debug\netcoreapp3.1\staticwebassets\FinalWithAuth.StaticWebAssets.xml
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\obj\Debug\netcoreapp3.1\scopedcss\bundle\FinalWithAuth.styles.css
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\obj\Debug\netcoreapp3.1\FinalWithAuth.TagHelpers.input.cache
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\obj\Debug\netcoreapp3.1\FinalWithAuth.TagHelpers.output.cache
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\obj\Debug\netcoreapp3.1\FinalWithAuth.RazorCoreGenerate.cache
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_LoginPartial.cshtml.g.cs
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\obj\Debug\netcoreapp3.1\FinalWithAuth.RazorTargetAssemblyInfo.cache
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\obj\Debug\netcoreapp3.1\FinalWithAuth.RazorTargetAssemblyInfo.cs
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\obj\Debug\netcoreapp3.1\FinalWithAuth.Views.pdb
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\obj\Debug\netcoreapp3.1\FinalWithAuth.csproj.CopyComplete
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\obj\Debug\netcoreapp3.1\FinalWithAuth.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\obj\Debug\netcoreapp3.1\FinalWithAuth.pdb
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\obj\Debug\netcoreapp3.1\FinalWithAuth.genruntimeconfig.cache
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\GCProjects\Major Projects\FINAL !\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\appsettings.Development.json
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\appsettings.json
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\FinalWithAuth.StaticWebAssets.xml
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\FinalWithAuth.exe
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\FinalWithAuth.deps.json
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\FinalWithAuth.runtimeconfig.json
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\FinalWithAuth.runtimeconfig.dev.json
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\FinalWithAuth.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\FinalWithAuth.pdb
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\FinalWithAuth.Views.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\FinalWithAuth.Views.pdb
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\AutoMapper.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\IdentityModel.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\IdentityServer4.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\IdentityServer4.AspNetIdentity.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\IdentityServer4.EntityFramework.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\IdentityServer4.EntityFramework.Storage.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\IdentityServer4.Storage.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.ApiAuthorization.IdentityServer.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.JwtBearer.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Authentication.OpenIdConnect.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.Internal.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Cryptography.KeyDerivation.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Diagnostics.EntityFrameworkCore.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V3.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.Views.V4.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Identity.UI.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.NodeServices.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.SpaServices.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.SpaServices.Extensions.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.Bcl.AsyncInterfaces.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.Bcl.HashCode.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Abstractions.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Relational.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.SqlServer.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Abstractions.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Caching.Memory.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Abstractions.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Configuration.Binder.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Abstractions.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Embedded.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileProviders.Physical.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.FileSystemGlobbing.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Http.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Core.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Identity.Stores.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Abstractions.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Configuration.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Logging.Console.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Options.ConfigurationExtensions.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.Extensions.Primitives.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.Identity.Client.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.JsonWebTokens.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Logging.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Microsoft.IdentityModel.Tokens.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\System.Collections.Immutable.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\System.Configuration.ConfigurationManager.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\System.Diagnostics.DiagnosticSource.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\System.IdentityModel.Tokens.Jwt.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\System.Runtime.Caching.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\System.Security.Cryptography.ProtectedData.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.1\Microsoft.Data.SqlClient.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\runtimes\win-arm64\native\sni.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\runtimes\win-x64\native\sni.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\runtimes\win-x86\native\sni.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\runtimes\unix\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\runtimes\win\lib\netcoreapp2.0\System.Runtime.Caching.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\bin\Debug\netcoreapp3.1\runtimes\win\lib\netstandard2.0\System.Security.Cryptography.ProtectedData.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\obj\Debug\netcoreapp3.1\FinalWithAuth.csproj.AssemblyReference.cache
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\obj\Debug\netcoreapp3.1\FinalWithAuth.GeneratedMSBuildEditorConfig.editorconfig
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\obj\Debug\netcoreapp3.1\FinalWithAuth.AssemblyInfoInputs.cache
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\obj\Debug\netcoreapp3.1\FinalWithAuth.AssemblyInfo.cs
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\obj\Debug\netcoreapp3.1\FinalWithAuth.csproj.CoreCompileInputs.cache
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\obj\Debug\netcoreapp3.1\FinalWithAuth.MvcApplicationPartsAssemblyInfo.cs
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\obj\Debug\netcoreapp3.1\FinalWithAuth.MvcApplicationPartsAssemblyInfo.cache
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\obj\Debug\netcoreapp3.1\FinalWithAuth.RazorAssemblyInfo.cache
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\obj\Debug\netcoreapp3.1\FinalWithAuth.RazorAssemblyInfo.cs
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\obj\Debug\netcoreapp3.1\staticwebassets\FinalWithAuth.StaticWebAssets.Manifest.cache
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\obj\Debug\netcoreapp3.1\staticwebassets\FinalWithAuth.StaticWebAssets.xml
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\obj\Debug\netcoreapp3.1\scopedcss\bundle\FinalWithAuth.styles.css
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\obj\Debug\netcoreapp3.1\FinalWithAuth.TagHelpers.input.cache
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\obj\Debug\netcoreapp3.1\FinalWithAuth.TagHelpers.output.cache
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\obj\Debug\netcoreapp3.1\FinalWithAuth.RazorCoreGenerate.cache
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\obj\Debug\netcoreapp3.1\Razor\Pages\Error.cshtml.g.cs
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\obj\Debug\netcoreapp3.1\Razor\Pages\Shared\_LoginPartial.cshtml.g.cs
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\obj\Debug\netcoreapp3.1\Razor\Pages\_ViewImports.cshtml.g.cs
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\obj\Debug\netcoreapp3.1\FinalWithAuth.RazorTargetAssemblyInfo.cache
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\obj\Debug\netcoreapp3.1\FinalWithAuth.RazorTargetAssemblyInfo.cs
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\obj\Debug\netcoreapp3.1\FinalWithAuth.Views.pdb
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\obj\Debug\netcoreapp3.1\FinalWithAuth.csproj.CopyComplete
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\obj\Debug\netcoreapp3.1\FinalWithAuth.dll
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\obj\Debug\netcoreapp3.1\FinalWithAuth.pdb
+D:\GCProjects\Major Projects\FINAL\FinalWithAuth\FinalWithAuth\obj\Debug\netcoreapp3.1\FinalWithAuth.genruntimeconfig.cache
