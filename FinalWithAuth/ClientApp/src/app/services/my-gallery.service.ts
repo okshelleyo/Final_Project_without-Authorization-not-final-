@@ -19,20 +19,20 @@ export class MyGalleryService {
      return this.http.get<MyGallery[]>(`${this.apiUri}/getlikes`);
     }
 
-  //   // CREATE add an object to myGallery
-  //  addToMyGallery (metObj: MetObjects) {
-  //    return this.http.post<MyGallery>(`${this.apiUri}/newlike`, {"metObj": metObj});
-  //    //return this.http.post<MyGallery>(`${this.apiUri}/newlike`, {"objectId": objectId, "visitorId": visitorId});
-  //  }
+  // CREATE add an object to myGallery
+  addToMyGallery (metObj: MetObjects) {
+    return this.http.post<MyGallery>(`${this.apiUri}/newlike`, {"objectId":metObj.objectID, "department":metObj.department, "title":metObj.title,
+      "artistDisplayName":metObj.artistDisplayName, "primaryImage":metObj.primaryImage, "artistDisplayBio":metObj.artistDisplayBio,
+      "medium":metObj.medium, "objectDate":metObj.objectDate});
+  }
 
-  //  // UPDATE edit an object that the user likes (Have visited boolean)
-  //  updateGalleryItem (objectId: number, item: MyGallery, visitorId: string) {
-  //    return this.http.put<MyGallery>(`${this.apiUri}/{}/{}`, {});
-  //  }
+//  // UPDATE edit an object that the user likes (Have visited boolean)
+//  updateGalleryItem (objectId: number, item: MyGallery, visitorId: string) {
+//    return this.http.put<MyGallery>(`${this.apiUri}/{}/{}`, {});
+//  }
 
-  //  // DELETE delete an item from the list of user likes
-  //  deleteGalleryItem (objectId: number, visitorId: string) {
-  //    return this.http.delete(`${this.apiUri}/{}/{}`);
-  //  }
-  //}
+  // DELETE delete an item from the list of user likes
+  deleteGalleryItem (entryId: number) {
+    return this.http.delete(`${this.apiUri}/delete/${entryId}`);
+  }
 }

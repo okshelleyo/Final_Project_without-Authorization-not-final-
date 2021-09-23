@@ -79,14 +79,11 @@ namespace FinalWithAuth.Controllers
         //    {
         //        _context.TheLikes.Remove(theLike);
 
-
-
         //        await _context.SaveChangesAsync();
         //        return NoContent();
-
         //    }
-        //    return NotFound();
 
+        //    return NotFound();
         //}
     }
 }

@@ -3,8 +3,6 @@ import { MetAPIService } from './../services/met-api.service';
 import { Component, Input, OnInit } from '@angular/core';
 import { ListBySearchTerm } from '../models/ListBySearchTerm';
 import { MyGalleryService } from '../services/my-gallery.service';
-// import { LoginComponent } from 'src/api-authorization/login/login.component';
-// import { LoginMenuComponent } from 'src/api-authorization/login-menu/login-menu.component';
 
 @Component({
   selector: 'app-met-app',
@@ -116,8 +114,13 @@ export class MetAppComponent implements OnInit {
       )};
 
    //method to call newlike & add it to thelikes/mygallery
-   addNewLike() {
-
+   addNewLike(metObj: MetObjects) {
+    this.myGalleryAPIservice.addToMyGallery(metObj).subscribe(
+      result => {
+        console.log(result);
+      },
+      error => console.log(error)
+    )
    }
 
    //methods below = old code.
