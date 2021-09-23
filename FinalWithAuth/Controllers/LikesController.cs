@@ -21,23 +21,12 @@ namespace FinalWithAuth.Controllers
             _context = context;
         }
 
-        //[HttpDelete("{ObjectId}")]
-        //public async Task<ActionResult> DeleteLikes(int EntryId)
-        //{
-        //    TheLikes theLike = _context.TheLikes.Where(x => x.EntryId == EntryId).FirstOrDefault();
+        ////UPDATE: api/likes/update/{entryId}
+        //[HttpPut("{entryId}")]
+        //public async Task<ActionResult> UpdateLike() 
 
-        //    if (theLike is object)
-        //    {
-        //        _context.TheLikes.Remove(theLike);
-        //        await _context.SaveChangesAsync();
-        //        return NoContent();
-        //    }
-
-        //    return NotFound();
-        //}
-
-        //DELETE: api/likes/{entryId}
-        [HttpDelete("{entryId}")]
+        //DELETE: api/likes/delete/{entryId}
+        [HttpDelete("delete/{entryId}")]
         public async Task<ActionResult> DeleteLike(int entryId)
         {
             var like = await _context.TheLikes.FindAsync(entryId);
@@ -45,9 +34,12 @@ namespace FinalWithAuth.Controllers
             {
                 return NotFound();
             }
-            _context.TheLikes.Remove(like);
-            await _context.SaveChangesAsync();
-            return NoContent();
+            else
+            {
+                _context.TheLikes.Remove(like);
+                await _context.SaveChangesAsync();
+                return NoContent();
+            }
         }
 
         ////api/met/likes/{user}
@@ -77,5 +69,24 @@ namespace FinalWithAuth.Controllers
             //return CreatedAtAction(nameof(GetStudent), new { id = student.Id }, student);
             return Ok(newLike);
         }
+
+        //[HttpDelete("{ObjectId}")]
+        //public async Task<ActionResult> DeleteLikes(int EntryId)
+        //{
+        //    TheLikes theLike = _context.TheLikes.Where(x => x.EntryId == EntryId).FirstOrDefault();
+
+        //    if (theLike is object)
+        //    {
+        //        _context.TheLikes.Remove(theLike);
+
+
+
+        //        await _context.SaveChangesAsync();
+        //        return NoContent();
+
+        //    }
+        //    return NotFound();
+
+        //}
     }
 }

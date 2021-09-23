@@ -14,6 +14,8 @@ import { AuthorizeGuard } from 'src/api-authorization/authorize.guard';
 import { FetchDataComponent } from './fetch-data/fetch-data.component';
 import { AuthTestComponent } from 'src/AuthTest (demo)/AuthTest.component';
 import { LoginComponent } from 'src/api-authorization/login/login.component';
+import { ApiAuthorizationModule } from 'src/api-authorization/api-authorization.module';
+import { AuthorizeInterceptor } from 'src/api-authorization/authorize.interceptor';
 
 @NgModule({
   declarations: [
@@ -23,26 +25,24 @@ import { LoginComponent } from 'src/api-authorization/login/login.component';
     MyGalleryComponent,
     DepartmentSuggestionComponent,
     FetchDataComponent,
-    AuthTestComponent,
-    LoginComponent,
     MetAppComponent
   ],
   imports: [
     BrowserModule.withServerTransition({ appId: 'ng-cli-universal' }),
     HttpClientModule,
     FormsModule,
+    ApiAuthorizationModule,
     RouterModule.forRoot([
       { path: '', component: HomeComponent, pathMatch: 'full' },
       { path: 'fetch-data', component: FetchDataComponent, canActivate: [AuthorizeGuard]}, //added AuthorizeGuard
-      { path: 'AuthTest', component: AuthTestComponent}, //canActivate: [AuthorizeGuard]},
       { path: 'app-login', component: LoginComponent}, //canActivate: [AuthorizeGuard]},
       { path: 'mygallery', component: MyGalleryComponent },
       { path: 'mysuggestion', component: DepartmentSuggestionComponent },
-      { path: 'metapp', component: MetAppComponent }
-      
+      { path: 'metapp', component: MetAppComponent }      
     ])
   ],
-  providers: [],
+  providers: [{provide: HTTP_INTERCEPTORS, useClass: AuthorizeInterceptor, multi: true
+  }],
   bootstrap: [AppComponent]
 })
 
