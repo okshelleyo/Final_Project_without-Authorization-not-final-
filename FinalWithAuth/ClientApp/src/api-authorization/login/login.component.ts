@@ -45,7 +45,6 @@ export class LoginComponent implements OnInit {
     }
   }
 
-
   private async login(returnUrl: string): Promise<void> {
     const state: INavigationState = { returnUrl };
     const result = await this.authorizeService.signIn(state);

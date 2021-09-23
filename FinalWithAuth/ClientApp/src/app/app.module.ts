@@ -12,6 +12,8 @@ import { DepartmentSuggestionComponent } from './department-suggestion/departmen
 import { MetAppComponent } from './met-app/met-app.component';
 import { AuthorizeGuard } from 'src/api-authorization/authorize.guard';
 import { FetchDataComponent } from './fetch-data/fetch-data.component';
+import { AuthTestComponent } from 'src/AuthTest (demo)/AuthTest.component';
+import { LoginComponent } from 'src/api-authorization/login/login.component';
 
 @NgModule({
   declarations: [
@@ -21,6 +23,8 @@ import { FetchDataComponent } from './fetch-data/fetch-data.component';
     MyGalleryComponent,
     DepartmentSuggestionComponent,
     FetchDataComponent,
+    AuthTestComponent,
+    LoginComponent,
     MetAppComponent
   ],
   imports: [
@@ -30,10 +34,12 @@ import { FetchDataComponent } from './fetch-data/fetch-data.component';
     RouterModule.forRoot([
       { path: '', component: HomeComponent, pathMatch: 'full' },
       { path: 'fetch-data', component: FetchDataComponent, canActivate: [AuthorizeGuard]}, //added AuthorizeGuard
+      { path: 'AuthTest', component: AuthTestComponent}, //canActivate: [AuthorizeGuard]},
+      { path: 'app-login', component: LoginComponent}, //canActivate: [AuthorizeGuard]},
       { path: 'mygallery', component: MyGalleryComponent },
       { path: 'mysuggestion', component: DepartmentSuggestionComponent },
       { path: 'metapp', component: MetAppComponent }
-
+      
     ])
   ],
   providers: [],
