@@ -93,7 +93,7 @@ export class MetAppComponent implements OnInit {
     onLike() {
       var rand = this.getNextValue(this.listBySearchTerm.objectIDs);
       this.getMetObjById(rand);
-      this.addNewLike();
+      this.addNewLike(this.metObj);
     }
 
     //same as onSelect, but when the user selects "dislike"
