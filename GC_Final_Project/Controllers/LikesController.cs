@@ -18,11 +18,37 @@ namespace GC_Final_Project.Controllers
             _context = context;
         }
 
-        ////UPDATE: api/likes/update/{entryId}
-        //[HttpPut("{entryId}")]
-        //public async Task<ActionResult> UpdateLike() {
+        //UDPATE: api/likes/updateLike
+        [HttpPut("UpdateLike/{entryId}")]
+        public async Task<ActionResult<TheLikes>> UpdateLike(TheLikes like, int entryId)
+        {
 
-        //}
+            if (entryId != like.EntryId || !ModelState.IsValid)
+            {
+                return BadRequest();
+            }
+            else
+            {
+                TheLikes dbLike = _context.TheLikes.Find(entryId);
+
+                dbLike.ObjectId = like.ObjectId;
+                dbLike.Department = like.Department;
+                dbLike.title = like.title;
+                dbLike.VisitedObject = like.VisitedObject;
+                dbLike.artistDisplayName = like.artistDisplayName;
+                dbLike.primaryImage = like.primaryImage;
+                dbLike.artistDisplayBio = like.artistDisplayBio;
+                dbLike.medium = like.medium;
+                dbLike.objectDate = like.objectDate;
+
+
+                _context.Entry(dbLike).State = EntityState.Modified;
+                _context.Update(dbLike);
+                await _context.SaveChangesAsync();
+                return NoContent();
+
+            }
+        }
 
         //DELETE: api/likes/delete/{entryId}
         [HttpDelete("delete/{entryId}")]

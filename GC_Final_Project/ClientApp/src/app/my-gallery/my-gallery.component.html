@@ -15,11 +15,12 @@
   </tr>
 
 
-
+  <!-- //** SO -->
   <tr *ngFor="let item of myGalleryList">
     <td> <img src="{{ item.primaryImage }}" style="width:auto;height:125px;"> </td>
     <td> {{ item.artistDisplayName }}, {{item.title}} </td>
-    <td></td><button (click)="onMarkAsVisited()">Mark as Visited</button>
+    <p> {{ item.visitedObject }}</p>
+    <td></td><button (click)="onMarkAsVisited(item, item.entryId)">Mark as Visited</button>
     <td><button (click)="deleteGalleryItem(item.entryId)">Remove From My Gallery</button>
 
   </tr>

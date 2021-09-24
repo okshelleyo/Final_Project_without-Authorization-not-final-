@@ -1,6 +1,8 @@
+import { MyGallery } from './../models/MyGallery';
 import { MyGalleryService } from '../services/my-gallery.service';
 import { Component, OnInit } from '@angular/core';
 import { MyGallery } from '../models/MyGallery';
+import { THIS_EXPR } from '@angular/compiler/src/output/output_ast';
 
 @Component({
   selector: 'app-my-gallery',
@@ -17,7 +19,7 @@ export class MyGalleryComponent implements OnInit {
   */
 
    myGalleryList: MyGallery[] = [];
-
+   galleryObject: MyGallery; //** SO
 
    constructor(private galleryApiService: MyGalleryService) { }
 
@@ -49,16 +51,25 @@ export class MyGalleryComponent implements OnInit {
     }
 
 
-   //edit an item from the list of likes
-   editGalleryItem () {
+    //** SO/AC updated
+    //edit an item from the list of likes
+   editGalleryItem (entryId: number, galleryObj: MyGallery) {
+    this.galleryApiService.updateGalleryItem(entryId, galleryObj).subscribe(
+      result => {
+        this.myGalleryList = result;
+        console.log(this.myGalleryList)
+        this.getAllLikes();
+      },
+      error => console.log(error)
+    )
   }
 
 
+  //** SO/AC updated
    // when the user clicks the "I've visited button"
-   onMarkAsVisited (){
-     //change the bool to true & send that update to the API (editGalleryItem)
+   onMarkAsVisited (item: MyGallery, entryId: number) {
+
 
    }
-
 
 }

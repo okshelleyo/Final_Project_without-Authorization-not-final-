@@ -28,10 +28,13 @@ export class MyGalleryService {
                                       "medium":metObj.medium, "objectDate":metObj.objectDate});
     }
 
-  //  // UPDATE edit an object that the user likes (Have visited boolean)
-  //  updateGalleryItem (objectId: number, item: MyGallery, visitorId: string) {
-  //    return this.http.put<MyGallery>(`${this.apiUri}/{}/{}`, {});
-  //  }
+    //** SO/AC
+    // UPDATE edit an object that the user likes (Have visited boolean)
+    updateGalleryItem (entryId: number, galleryItem: MyGallery) {
+      return this.http.put<MyGallery[]>(`${this.apiUri}/updatelike/${entryId}`, {"objectId":galleryItem.objectId, "department":galleryItem.department, "title":galleryItem.title,
+      "artistDisplayName":galleryItem.artistDisplayName, "primaryImage":galleryItem.primaryImage, "artistDisplayBio":galleryItem.artistDisplayBio,
+      "medium":galleryItem.medium, "objectDate":galleryItem.objectDate, "visitedObject":galleryItem.visitedObject});
+    }
 
     // DELETE delete an item from the list of user likes
     deleteGalleryItem (entryId: number) {
